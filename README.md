@@ -34,7 +34,7 @@ Tested on :
 	
 Dependencies:
 
-o A windows-alike o/s such as Windows XP, 7-11 or Apple Mac OSX 11.  	
+o A windows-alike o/s such as Windows XP, 7-11 or Apple Mac OSX 11.    	
 o Installation of the yahoo widget SDK runtime engine  
 
 Yahoo widget engine for Windows - https://www.deviantart.com/users/outgoing?http://g6auc.me.uk/ywidgets_sdk_setup.exe  
