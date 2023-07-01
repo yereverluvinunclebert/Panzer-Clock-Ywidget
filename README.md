@@ -34,17 +34,18 @@ Tested on :
 	
 Dependencies:
 
-o A windows-alike o/s such as Windows XP, 7-11 or Apple Mac OSX 11.	
-o Installation of the yahoo widget SDK runtime engine
+o A windows-alike o/s such as Windows XP, 7-11 or Apple Mac OSX 11.  	
+o Installation of the yahoo widget SDK runtime engine  
 
-Yahoo widget engine for Windows - https://www.deviantart.com/users/outgoing?http://g6auc.me.uk/ywidgets_sdk_setup.exe
+Yahoo widget engine for Windows - https://www.deviantart.com/users/outgoing?http://g6auc.me.uk/ywidgets_sdk_setup.exe  
 Yahoo widget engine for Mac - https://www.deviantart.com/users/outgoing?https://rickyromero.com/widgets/downloads/yahoo-widgets-4.5.2.dmg
 
 Running the widget using a javascript engine frees javascript from running only 
 within the captivity of a browser, you will now be able to run these widgets on 
 your Windows desktop as long as you have the correct widget engine installed.
 
-Instructions:
+Instructions for running Yahoo widgets on Windows
+=================================================
 
 1. Install yahoo widget SDK runtime engine
 2. Download the gauge from this repo.
