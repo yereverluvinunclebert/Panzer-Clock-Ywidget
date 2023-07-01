@@ -55,7 +55,10 @@ Instructions for running Yahoo widgets on Windows
 Instructions for running Yahoo widgets on Mac OS/X ONLY
 ========================================================
 
-For all all recent versions of Mac OS/X including Sierra, edit the following 
+1. Install yahoo widget SDK runtime engine for Mac
+2. Download the gauge from this repo.
+3. Unzip it
+4. For all all recent versions of Mac OS/X including Sierra, edit the following 
 file:
 
 com.yahoo.widgetengine.plist which is in /Users/xxx/Library/Preferences. Look 
@@ -66,9 +69,11 @@ for these lines:
 
 Change to false if it is true.
 
-Then you should be able to start Yahoo! Widgets and the menubar item should 
-appear. Widgets can then be started from the menubar or by double-clicking them 
-in the usual way.
+5. Double-click on the widgets .KON file and it will install and run
+
+Wit these instructions you should be able to start Yahoo! Widgets and the 
+menubar item should appear. Widgets can then be started from the menubar or by 
+double-clicking on the KON file in the usual way.
 
 LICENCE AGREEMENTS:
 
