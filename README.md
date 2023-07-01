@@ -21,7 +21,7 @@ provide.
 
 Built using: 
 
-	RJTextEd Advanced Editor  
+	RJTextEd Advanced Editor  https://www.rj-texted.se/
 
 Tested on :
 
