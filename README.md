@@ -14,10 +14,14 @@ around the desktop as you require.
 The widget can be resized - Hover the cursor over the widget. Press the CTRL key 
 and use your mousewheel up or down. The widget will resize dynamically.
 
+![security](https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/assets/2788342/7c03c45e-29a8-4637-be10-f4e771fd950d)
+
 All javascript widgets need an engine to function, in this case the widget uses 
 the Yahoo Widget Konfabulator engine. The engine interprets the javascript and 
 creates the widget according to the XML description and using the images you 
 provide. 
+
+![panzer-clock-help](https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/assets/2788342/3ed47584-a17f-4378-a424-541b7e2115d5)
 
 Built using: 
 
