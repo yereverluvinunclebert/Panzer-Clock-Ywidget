@@ -82,8 +82,7 @@ Wit these instructions you should be able to start Yahoo! Widgets and the
 menubar item should appear. Widgets can then be started from the menubar or by 
 double-clicking on the KON file in the usual way.
 
-![about](https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/assets/2788342/bf3ec2c8-b689-434b-be30-f1f441c41c0a)
-
+![about](https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/assets/2788342/c80115c5-1a87-4e65-bf7d-caed05a16534)
 
 LICENCE AGREEMENTS:
 
