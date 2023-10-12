@@ -183,29 +183,44 @@ function sizeClock() {
 }
 
 function updateDLS() {
-	var dlsRule,
-		getRemoteOffset = function (entry) {
+   print ("%DST func updateDLS");
+    
+	var dlsRule;
+    var getRemoteOffset = function (entry) {
+    
+            print ("%DST func getRemoteOffset");
+            print ("%DST-I entry " + entry);    
 			var lookFor = /GMT\ ([+\-])\ (\d\d)\:(\d\d)\ [\s\S]*/,
 				found = entry.match(lookFor),
 				value;
 
 			if (found !== null) {
 				value = 60 * parseInt(found[2], 10) + parseInt(found[3], 10);
-				return found[1] === "-"
+				
+                print ("%DST-O getRemoteOffset " + value);
+                return found[1] === "-"
 					? -value
 					: value;
 			}
+            Print ("%DST-O abnormal getRemoteOffset null");
 			return null;
 		};
 
 	remoteGMTOffset1 = getRemoteOffset(preferences.optionListPref1.value);
-	remoteGMTOffset2 = getRemoteOffset(preferences.optionListPref2.value);
-
+	//remoteGMTOffset2 = getRemoteOffset(preferences.optionListPref2.value);
+    remoteGMTOffset2 = 0;
+    
 	dlsRule = preferences.mainDLSPref.value.split(/\s/)[0];
 	tzDelta1 = theDLSdelta(dlsRule, remoteGMTOffset1);
 
 	dlsRule = preferences.secyDLSPref.value.split(/\s/)[0];
-	tzDelta2 = theDLSdelta(dlsRule, remoteGMTOffset2);
+	//tzDelta2 = theDLSdelta(dlsRule, remoteGMTOffset2);
+    tzDelta2 = 0;
+    
+    print ("%DST-I dlsRule " + dlsRule);
+    print ("%DST-I remoteGMTOffset1 " + remoteGMTOffset1);
+    print ("%DST-O tzDelta1 " + tzDelta1);
+    
 }
 
 function updateTime() {
@@ -260,7 +275,9 @@ function updateTime() {
 				animationInterval = 60,
 
 				updateMe = function () {	// called during rotateAnimation
-					var now = animator.milliseconds, fraction, angle;
+					var now = animator.milliseconds;
+                    var fraction;
+                    var angle;
 
 					if (now >= (this.startTime + this.duration)) {
 						obj.rotation = this.endAngle;
