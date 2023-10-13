@@ -183,13 +183,13 @@ function sizeClock() {
 }
 
 function updateDLS() {
-   print ("%DST func updateDLS");
+   //print ("%DST func updateDLS");
     
 	var dlsRule;
     var getRemoteOffset = function (entry) {
     
-            print ("%DST func getRemoteOffset");
-            print ("%DST-I entry " + entry);    
+            //print ("%DST func getRemoteOffset");
+            //print ("%DST-I entry " + entry);    
 			var lookFor = /GMT\ ([+\-])\ (\d\d)\:(\d\d)\ [\s\S]*/,
 				found = entry.match(lookFor),
 				value;
@@ -197,12 +197,12 @@ function updateDLS() {
 			if (found !== null) {
 				value = 60 * parseInt(found[2], 10) + parseInt(found[3], 10);
 				
-                print ("%DST-O getRemoteOffset " + value);
+                //print ("%DST-O getRemoteOffset " + value);
                 return found[1] === "-"
 					? -value
 					: value;
 			}
-            Print ("%DST-O abnormal getRemoteOffset null");
+            //print ("%DST-O abnormal getRemoteOffset null");
 			return null;
 		};
 
@@ -217,9 +217,9 @@ function updateDLS() {
 	//tzDelta2 = theDLSdelta(dlsRule, remoteGMTOffset2);
     tzDelta2 = 0;
     
-    print ("%DST-I dlsRule " + dlsRule);
-    print ("%DST-I remoteGMTOffset1 " + remoteGMTOffset1);
-    print ("%DST-O tzDelta1 " + tzDelta1);
+    //print ("%DST-I dlsRule " + dlsRule);
+    //print ("%DST-I remoteGMTOffset1 " + remoteGMTOffset1);
+    //print ("%DST-O tzDelta1 " + tzDelta1);
     
 }
 
