@@ -4,6 +4,8 @@ Panzer Clock and Stopwatch Yahoo Widget, written in Javascript for the Yahoo
 Widget (Konfabulator) Engine. Created for XP, Vista, Win7, 8, 10+ as well as the 
 Apple Mac natively.
 
+This widget is now deprecated and is retained for historical reasons only, it still works but time moves ever onward - please use the VB6 version instead that you will find here: https://github.com/yereverluvinunclebert/Panzer-StopWatch-Clock-VB6
+
 ![panzer-photo-1440x900](https://github.com/yereverluvinunclebert/Panzer-Clock-Ywidget/assets/2788342/10d9f9bf-d054-43d6-a8e1-3b4bc07ad804)
 
 This Panzer widget is an attractive dieselpunk Yahoo widget for your desktop. 
